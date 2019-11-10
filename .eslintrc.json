@@ -3,6 +3,7 @@
   "parser": "babel-eslint",
   "plugins": ["react", "prettier"],
   "parserOptions": {
+    "allowImportExportEverywhere": true,
     "ecmaVersion": 8,
     "sourceType": "module",
     "ecmaFeatures": {

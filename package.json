@@ -1,8 +1,8 @@
 {
   "name": "@gfolks/layout",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint",
@@ -28,6 +28,7 @@
     "shortid": "^2.2.15"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",

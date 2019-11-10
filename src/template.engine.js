@@ -22,14 +22,14 @@ export const getTemplate = (components, path, isAdmin) => {
     : null;
 };
 //replaceInDev(path, shortid.generate())
-export default function Page({ content }) {
+export default function Layout({ content }) {
   return <Suspense fallback={<CircularProgress />}>{getTemplate(content)}</Suspense>;
 }
 
-Page.defaultProps = {
+Layout.defaultProps = {
   content: null,
 };
 
-Page.propTypes = {
+Layout.propTypes = {
   content: PropTypes.shape({}),
 };

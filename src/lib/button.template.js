@@ -6,7 +6,7 @@ import MUIButton from '@material-ui/core/Button';
 
 // Components
 import { Col } from './grid.components';
-import Controls from '../cms/forms/controls.component';
+import Controls from '../modules/admin/cms/forms/controls.component';
 import Icon from './icon.template';
 
 const Button = ({ components: text, sizes, variant, color, icon, iconColor, isAdmin, target, path, id }) => {

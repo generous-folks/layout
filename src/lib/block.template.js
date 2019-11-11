@@ -10,7 +10,7 @@ import { Col } from './grid.components';
 
 // utils
 import { getTemplate } from '../engine/template.engine';
-import Controls from '../cms/forms/controls.component';
+import Controls from '../modules/admin/cms/forms/controls.component';
 import { ADMIN_BORDERS } from '../styles/borders.styles';
 
 const useStyles = makeStyles({

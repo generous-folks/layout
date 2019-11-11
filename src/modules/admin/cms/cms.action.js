@@ -1,5 +1,5 @@
-// import { callApi } from "../../../utils/firebase.utils";
-import { createTemplateElement, addElementProps } from '../engine/template.constants';
+import { callApi } from '../../../utils/firebase.utils';
+import { createTemplateElement, addElementProps } from '../../../engine/template.constants';
 import { showToast } from '../../toaster/toaster.action';
 
 export const SET_PARENT_ELEMENT = 'cms/SET_PARENT_ELEMENT';
@@ -62,18 +62,16 @@ export const setPreviewElementProps = props => (dispatch, getState) => {
 };
 
 export const setPage = () => (dispatch, getState) => {
-  // const {
-  //   cms: { components }
-  // } = getState();
-  // const page = {
-  //   name: "Page Numéro Une",
-  //   target: "page-1",
-  //   enabled: true,
-  //   path: "/page-1"
-  // };
-  // callApi("addTemplate", { page, template: components })
-  //   .then(() => dispatch(showToast("success", "Page ajoutée avec succès !")))
-  //   .catch(err =>
-  //     dispatch(showToast("error", "Échec, la page n'a pas été ajoutée !", err))
-  //   );
+  const {
+    cms: { components },
+  } = getState();
+  const page = {
+    name: 'Page Numéro Une',
+    target: 'page-1',
+    enabled: true,
+    path: '/page-1',
+  };
+  callApi('addTemplate', { page, template: components })
+    .then(() => dispatch(showToast('success', 'Page ajoutée avec succès !')))
+    .catch(err => dispatch(showToast('error', "Échec, la page n'a pas été ajoutée !", err)));
 };

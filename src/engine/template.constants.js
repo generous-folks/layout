@@ -1,7 +1,3 @@
-import { lazy } from 'react';
-
-export const getTemplateForm = templateName => lazy(() => import(`./forms/${templateName}.form`));
-
 export const PARENT_COMPONENTS = ['section', 'article', 'block'];
 export const CHILDREN_COMPONENTS = ['title', 'text', 'divider', 'imageTile'];
 

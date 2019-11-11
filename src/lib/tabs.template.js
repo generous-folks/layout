@@ -10,7 +10,7 @@
 // import { makeStyles, useTheme } from '@material-ui/styles';
 
 // import { Col } from './grid.components';
-// import Controls from '../cms/forms/controls.component';
+// import Controls from '../modules/admin/cms/forms/controls.component';
 
 // import { getTemplate } from '../engine/template.engine';
 // import { isAuth } from '../../modules/auth/auth.selectors';

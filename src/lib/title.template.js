@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 // Components
 import { Col } from './grid.components';
-import Controls from '../cms/forms/controls.component';
+import Controls from '../modules/admin/cms/forms/controls.component';
 import { ADMIN_BORDERS } from '../styles/borders.styles';
 
 const useStyles = makeStyles({

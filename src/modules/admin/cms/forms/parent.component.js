@@ -11,8 +11,8 @@ import InputAdornment from '@material-ui/core/InputAdornment';
 import TextField from '@material-ui/core/TextField';
 import FormControl from '@material-ui/core/FormControl';
 
-import { Col, Row } from '../lib/grid.components';
-import { PARENT_COMPONENTS, CHILDREN_COMPONENTS } from '../engine/template.constants';
+import { Col, Row } from '../../../../lib/grid.components';
+import { PARENT_COMPONENTS, CHILDREN_COMPONENTS } from '../../../../engine/template.constants';
 
 const renderComponentPicker = components =>
   components.map(name => (

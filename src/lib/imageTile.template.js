@@ -8,8 +8,8 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import { makeStyles } from '@material-ui/styles';
 
 import { Col } from './grid.components';
-import LazyImage from '../../components/lazyImg.component';
-import Controls from '../cms/forms/controls.component';
+import LazyImage from '../components/lazyImg.component';
+import Controls from '../modules/admin/cms/forms/controls.component';
 
 const useStyles = makeStyles({
   root: {

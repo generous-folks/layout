@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 import omit from 'lodash/omit';
 import classnames from 'classnames';
 
-import { isAuth } from '../../modules/auth/auth.selectors';
+import { isAuth } from '../modules/auth/auth.selectors';
 import { getTemplate } from '../engine/template.engine';
 
 import { Row } from './grid.components';
-import Controls from '../cms/forms/controls.component';
+import Controls from '../modules/admin/cms/forms/controls.component';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles({
@@ -30,7 +30,7 @@ const Section = ({ spacing, justify, components, isAdmin, path, id, target, ...p
       {...omit(props, ['isAdmin', 'dispatch', 'sizes'])}
       spacing={spacing}
       justify={justify}
-      >
+    >
       <Controls isAdmin={isAdmin} target={target} id={id} path={path} />
       {components && getTemplate(components, path, isAdmin)}
     </Row>

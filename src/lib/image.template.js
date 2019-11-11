@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Col } from './grid.components';
 
-import LazyImage from '../../components/lazyImg.component';
+import LazyImage from '../components/lazyImg.component';
 
 const Image = ({ components, sizes, alt }) => {
   return (

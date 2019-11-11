@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { PARENT_PROPS } from '../../../../templates/template.constants';
+import { PARENT_PROPS } from '../engine/template.constants';
 import Radios from './radios.component';
 import SelectForm from './select.component';
 

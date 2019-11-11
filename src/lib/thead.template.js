@@ -5,7 +5,7 @@ import { makeStyles, useTheme } from '@material-ui/styles';
 
 import MUITableHead from '@material-ui/core/TableHead';
 
-import { getTemplate } from '../template.engine';
+import { getTemplate } from '../engine/template.engine';
 
 const useStyles = makeStyles(theme => ({
   header: { background: theme.palette.primary[500] },

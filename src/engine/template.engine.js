@@ -11,7 +11,7 @@ console.log('REMOVE SHORTID GENERATE BEFORE MEP');
 // const replaceInDev = (prod, dev) => (process.env.NODE_ENV === 'production' ? prod : dev);
 
 export const getComponent = (index, component, path, isAdmin) => {
-  const Component = lazy(() => import(`../../templates/lib/${component.target}.template`));
+  const Component = lazy(() => import(`../lib/${component.target}.template`));
 
   return <Component key={`${component.id || shortid.generate()}`} path={path} isAdmin={isAdmin} {...component} />;
 };

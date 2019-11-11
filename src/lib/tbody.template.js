@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import MUITableBody from '@material-ui/core/TableBody';
-import { getTemplate } from '../template.engine';
+import { getTemplate } from '../engine/template.engine';
 
 function TableBody({ components, path }) {
   return <MUITableBody>{getTemplate(components, path)}</MUITableBody>;

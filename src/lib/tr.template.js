@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import TableRow from '@material-ui/core/TableRow';
-import { getTemplate } from '../template.engine';
+import { getTemplate } from '../engine/template.engine';
 
 function Tr({ components, path }) {
   return <TableRow>{getTemplate(components, path)}</TableRow>;

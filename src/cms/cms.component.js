@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/styles";
 import { Row, Col } from "../lib/grid.components";
 import SelectTemplateElement from "./forms/parent.connector";
 import { Card, CardHeader, CardContent, Button } from "@material-ui/core";
-import { getTemplate } from "../template.engine";
+import { getTemplate } from "../engine/template.engine";
 
 const useStyles = makeStyles({
   container: {

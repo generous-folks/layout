@@ -9,7 +9,7 @@ import { makeStyles } from '@material-ui/styles';
 import { Col } from './grid.components';
 
 // utils
-import { getTemplate } from '../template.engine';
+import { getTemplate } from '../engine/template.engine';
 import Controls from '../cms/forms/controls.component';
 import { ADMIN_BORDERS } from '../styles/borders.styles';
 

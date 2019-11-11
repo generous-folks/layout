@@ -5,7 +5,7 @@ import omit from 'lodash/omit';
 import classnames from 'classnames';
 
 import { isAuth } from '../../modules/auth/auth.selectors';
-import { getTemplate } from '../template.engine';
+import { getTemplate } from '../engine/template.engine';
 
 import { Row } from './grid.components';
 import Controls from '../cms/forms/controls.component';

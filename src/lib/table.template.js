@@ -5,7 +5,7 @@ import { makeStyles, useTheme } from '@material-ui/styles';
 
 import MUITable from '@material-ui/core/Table';
 import Paper from '@material-ui/core/Paper';
-import { getTemplate } from '../template.engine';
+import { getTemplate } from '../engine/template.engine';
 
 const useStyles = makeStyles(theme => ({
   root: {

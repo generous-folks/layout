@@ -1,5 +1,5 @@
 import { callApi } from '../../../utils/firebase.utils';
-import { createTemplateElement, addElementProps } from '../../../engine/template.constants';
+import { createTemplateElement, addElementProps } from '../../../engine/template.factory';
 import { showToast } from '../../toaster/toaster.action';
 
 export const SET_PARENT_ELEMENT = 'cms/SET_PARENT_ELEMENT';

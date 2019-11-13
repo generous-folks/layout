@@ -3,7 +3,7 @@ import { GET_PAGE_CONTENT_BEGIN, GET_PAGE_CONTENT_FAILURE, GET_PAGE_CONTENT_SUCC
 const initialState = {
   getPageContentPending: false,
   getPageContentError: null,
-  content: {},
+  content: null,
   path: null,
   page: null,
 };

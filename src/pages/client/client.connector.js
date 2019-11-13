@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
 
 import Client from './client.component';
-import { getPathname } from '../../utils/routing.utils';
-import { getPages } from '../../modules/app/app.selectors';
 
-const mapStateToProps = state => ({ content: getPages(state)[getPathname(state)] });
+import { getContent } from '../../modules/pageContentManager/pageContent.selectors';
+
+const mapStateToProps = state => ({ content: getContent(state) });
 
 export default connect(mapStateToProps)(Client);

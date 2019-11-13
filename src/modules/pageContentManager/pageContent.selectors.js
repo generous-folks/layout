@@ -1,5 +1,1 @@
-export const getContentEvents = ({
-  pageContent: {
-    content: { events },
-  },
-}) => events;
+export const getContent = ({ pageContent: { content } }) => content;

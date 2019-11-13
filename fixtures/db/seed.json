@@ -1,0 +1,1294 @@
+{
+  "private" : {
+    "config" : {
+      "general" : {
+        "admin" : {
+          "email" : "fake_email@example.com",
+          "id" : 1234567890
+        }
+      },
+      "pages" : {
+        "-Kjg8htF67bDlm9" : {
+          "enabled" : true,
+          "name" : "Pages",
+          "path" : "/admin/pages",
+          "target" : "cms"
+        }
+      }
+    }
+  },
+  "public" : {
+    "config" : {
+      "general" : {
+        "address" : "1 Fake Street, 12345 Example City",
+        "email" : "fake_email@example.com",
+        "facebook" : "https://facebook.com/example",
+        "instagram" : "\"https://www.instagram.com/explore/locations/000000/example",
+        "lat" : 45.768069,
+        "lng" : 14.832908,
+        "tel" : "+33123456789"
+      },
+      "modules" : {
+        "ad" : {
+          "enabled" : false,
+          "message" : "Cocktail pairing : pour 1€ de plus, un tapas sublime votre cocktail !"
+        },
+        "home" : {
+          "enabled" : true
+        },
+        "navbar" : {
+          "desktop" : true,
+          "isBlack" : true
+        },
+        "splash" : {
+          "enabled" : true,
+          "img" : "..."
+        },
+        "styleguide" : {
+          "enabled" : true
+        },
+        "theme" : {
+          "desktop" : true,
+          "isBlack" : true,
+          "navbar" : {
+            "desktop" : false
+          },
+          "palette" : {
+            "type" : "dark"
+          },
+          "splash" : {
+            "enabled" : true
+          }
+        }
+      },
+      "name" : "Layout System Demo",
+      "pages" : {
+        "-U0LK9R4dHGFRT543ED" : {
+          "component" : "Home",
+          "icon" : "Home",
+          "name" : "Accueil",
+          "path" : "/",
+          "target" : "home"
+        },
+        "-U0LKJDSA1GFRT6GHYT" : {
+          "component" : "StyleGuide",
+          "icon" : "Home",
+          "name" : "StyleGuide",
+          "path" : "/design",
+          "target" : "styleguide"
+        }
+      }
+    },
+    "content" : {
+      "en" : {
+        "home" : [ {
+          "alignContent" : "center",
+          "alignItems" : "center",
+          "components" : [ {
+            "actionProps" : {
+              "target" : "div"
+            },
+            "alt" : "halte la",
+            "data" : "https://placekitten.com/1000/400",
+            "height" : "400px",
+            "id" : "scnkscks",
+            "path" : "/abddbcv/scnkscks",
+            "sizes" : {
+              "lg" : 12,
+              "md" : 12,
+              "sm" : 12,
+              "xs" : 12
+            },
+            "target" : "imageTile",
+            "width" : "100%"
+          } ],
+          "id" : "abddbcv",
+          "justify" : "center",
+          "path" : "/abddbcv",
+          "spacing" : 0,
+          "target" : "section"
+        }, {
+          "alignContent" : "center",
+          "alignItems" : "center",
+          "components" : [ {
+            "components" : [ {
+              "components" : [ {
+                "actionProps" : {
+                  "target" : "div"
+                },
+                "alt" : "halte la",
+                "data" : "https://placekitten.com/300/300",
+                "height" : "100%",
+                "id" : "ecszcv",
+                "path" : "/cddc/vdcdscs/scscscc/ecszcv",
+                "sizes" : {
+                  "lg" : 4,
+                  "md" : 4,
+                  "sm" : 4,
+                  "xs" : 4
+                },
+                "target" : "imageTile",
+                "width" : "100%"
+              }, {
+                "components" : [ {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "vdvdvht",
+                  "path" : "/cddc/vdcdscs/scscscc/btntrd/vdvdvht",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }, {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n                      sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n                      ",
+                  "id" : "btnbtbn",
+                  "path" : "/cddc/vdcdscs/scscscc/btntrd/btnbtbn",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                } ],
+                "id" : "btntrd",
+                "path" : "/cddc/vdcdscs/scscscc/btntrd",
+                "sizes" : {
+                  "lg" : 7,
+                  "md" : 7,
+                  "sm" : 7,
+                  "xs" : 7
+                },
+                "target" : "block"
+              }, {
+                "color" : "primary",
+                "components" : "Lorem",
+                "id" : "zzzxz",
+                "path" : "/cddc/vdcdscs/scscscc/zzzxz",
+                "sizes" : {
+                  "lg" : 12,
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12
+                },
+                "target" : "button",
+                "variant" : "outlined"
+              } ],
+              "id" : "scscscc",
+              "justify" : "center",
+              "path" : "/cddc/vdcdscs/scscscc",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "spacing" : 2,
+              "target" : "section"
+            } ],
+            "id" : "vdcdscs",
+            "path" : "/cddc/vdcdscs",
+            "sizes" : {
+              "lg" : 4,
+              "md" : 4,
+              "sm" : 10,
+              "xs" : 10
+            },
+            "style" : {
+              "margin" : "2.5% auto"
+            },
+            "target" : "article"
+          }, {
+            "components" : [ {
+              "components" : [ {
+                "actionProps" : {
+                  "target" : "div"
+                },
+                "alt" : "halte la",
+                "data" : "https://placekitten.com/300/300",
+                "height" : "100%",
+                "id" : "msmczmfz",
+                "path" : "/cddc/zgzgrzg/lqoalc/msmczmfz",
+                "sizes" : {
+                  "lg" : 4,
+                  "md" : 4,
+                  "sm" : 4,
+                  "xs" : 4
+                },
+                "target" : "imageTile",
+                "width" : "100%"
+              }, {
+                "components" : [ {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "smcsmvmedbm",
+                  "path" : "/cddc/zgzgrzg/lqoalc/zafgzb/smcsmvmedbm",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }, {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n                      sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n                      ",
+                  "id" : "zeazrgz",
+                  "path" : "/cddc/zgzgrzg/lqoalc/zafgzb/zeazrgz",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                } ],
+                "id" : "zafgzb",
+                "path" : "/cddc/zgzgrzg/lqoalc/zafgzb",
+                "sizes" : {
+                  "lg" : 7,
+                  "md" : 7,
+                  "sm" : 7,
+                  "xs" : 7
+                },
+                "target" : "block"
+              }, {
+                "color" : "primary",
+                "components" : "Lorem",
+                "id" : "afmmfo",
+                "path" : "/cddc/zgzgrzg/lqoalc/afmmfo",
+                "sizes" : {
+                  "lg" : 12,
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12
+                },
+                "target" : "button",
+                "variant" : "outlined"
+              } ],
+              "id" : "lqoalc",
+              "justify" : "space-around",
+              "path" : "/cddc/zgzgrzg/lqoalc",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "spacing" : 2,
+              "target" : "section"
+            } ],
+            "id" : "zgzgrzg",
+            "path" : "/cddc/zgzgrzg",
+            "sizes" : {
+              "lg" : 4,
+              "md" : 4,
+              "sm" : 10,
+              "xs" : 10
+            },
+            "style" : {
+              "margin" : "2.5% auto"
+            },
+            "target" : "article"
+          }, {
+            "components" : [ {
+              "components" : [ {
+                "components" : [ {
+                  "components" : [ {
+                    "components" : "A",
+                    "target" : "td"
+                  }, {
+                    "components" : "B",
+                    "target" : "td"
+                  }, {
+                    "components" : "C",
+                    "target" : "td"
+                  } ],
+                  "id" : "4GWdYelx7a",
+                  "path" : "UG6_LGkrRq",
+                  "target" : "tr"
+                } ],
+                "id" : "mJnjrd6_nW",
+                "path" : "u2mElEG5QQ",
+                "target" : "thead"
+              }, {
+                "components" : [ {
+                  "components" : [ {
+                    "components" : "funny",
+                    "id" : "CSTZNTKuTA",
+                    "path" : "2pd1335xhY",
+                    "target" : "td"
+                  }, {
+                    "components" : "funny",
+                    "id" : "R8JSM1qTVJ",
+                    "path" : "pOTCK77suG",
+                    "target" : "td"
+                  }, {
+                    "components" : "funny",
+                    "id" : "vR2XeL94IF4",
+                    "path" : "cbfihmDGZr5",
+                    "target" : "td"
+                  } ],
+                  "id" : "-CO7oEOHpU",
+                  "path" : "mP84n16ITz",
+                  "target" : "tr"
+                }, {
+                  "components" : [ {
+                    "components" : "Ok",
+                    "id" : "UuZV5bH_00K",
+                    "path" : "F8lVaBhSeoI",
+                    "target" : "td"
+                  }, {
+                    "components" : "Ok",
+                    "id" : "YjvuwPFN89J",
+                    "path" : "XcQPT6ilwJ-",
+                    "target" : "td"
+                  }, {
+                    "components" : "Ok",
+                    "id" : "RvW5tEUGw4p",
+                    "path" : "AFJcJ_tDv4Q",
+                    "target" : "td"
+                  } ],
+                  "id" : "lJJGWGjEXNg",
+                  "path" : "IERnZBCBkPT",
+                  "target" : "tr"
+                }, {
+                  "components" : [ {
+                    "components" : "Soso",
+                    "id" : "VKVVPSmnYlz",
+                    "path" : "aN6AUi3Wxz2",
+                    "target" : "td"
+                  }, {
+                    "components" : "Soso",
+                    "id" : "wvRZt3zOldf",
+                    "path" : "FBRORKOGFIz",
+                    "target" : "td"
+                  }, {
+                    "components" : "Soso",
+                    "id" : "0h857NCgyNc",
+                    "path" : "qbRhdoL0RDp",
+                    "target" : "td"
+                  } ],
+                  "id" : "PEbsCw0G8qf",
+                  "path" : "MNP4XUfgeW_",
+                  "target" : "tr"
+                }, {
+                  "components" : [ {
+                    "components" : "Nice",
+                    "id" : "V9ZLdKAVZfW",
+                    "path" : "MXknWYt80Z3",
+                    "target" : "td"
+                  }, {
+                    "components" : "Nice",
+                    "id" : "tdG_6zPZUGQ",
+                    "path" : "IE8KP-h64a2",
+                    "target" : "td"
+                  }, {
+                    "components" : "Nice",
+                    "id" : "ke349ZY3TsF",
+                    "path" : "P-a8elYq9J6",
+                    "target" : "td"
+                  } ],
+                  "id" : "e5mwKF6Zrz3",
+                  "path" : "cDGWaLelkDy",
+                  "target" : "tr"
+                } ],
+                "id" : "SGThtc6x4U",
+                "path" : "gU9rGX4u5o",
+                "target" : "tbody"
+              } ],
+              "id" : "HvHQBHRNZu",
+              "path" : "wtC5ebQqmc",
+              "target" : "table"
+            } ],
+            "id" : "zoloOJM0Y",
+            "path" : "7T7CA8iulY",
+            "sizes" : {
+              "lg" : 3,
+              "md" : 3,
+              "sm" : 10,
+              "xs" : 10
+            },
+            "target" : "block"
+          }, {
+            "components" : [ {
+              "components" : [ {
+                "components" : [ {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "ag94fuK85xI",
+                  "path" : "Ohvqig8tndc",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }, {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n                      sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n                      ",
+                  "id" : "_l0rPcYUv9s",
+                  "path" : "GbVwPhydFSo",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                } ],
+                "id" : "VTMo3XIA04_",
+                "path" : "6ZQClNjWKWf",
+                "sizes" : {
+                  "lg" : 10,
+                  "md" : 10,
+                  "sm" : 10,
+                  "xs" : 10
+                },
+                "target" : "block"
+              } ],
+              "id" : "PzIcosAuJD-",
+              "justify" : "space-around",
+              "path" : "b1SIjvd2V-w",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "spacing" : 2,
+              "target" : "section"
+            } ],
+            "id" : "UaeunM4dkgl",
+            "path" : "G3rzcYtzVIP",
+            "sizes" : {
+              "lg" : 6,
+              "md" : 6,
+              "sm" : 10,
+              "xs" : 10
+            },
+            "style" : {
+              "margin" : "2.5% auto"
+            },
+            "target" : "article"
+          }, {
+            "components" : [ {
+              "components" : [ {
+                "actionProps" : {
+                  "target" : "div"
+                },
+                "alt" : "halte la",
+                "data" : "https://placekitten.com/300/300",
+                "height" : "100%",
+                "id" : "rSAKuY7V_NS",
+                "path" : "c_1OqhrvvKK",
+                "sizes" : {
+                  "lg" : 4,
+                  "md" : 4,
+                  "sm" : 4,
+                  "xs" : 4
+                },
+                "target" : "imageTile",
+                "width" : "100%"
+              }, {
+                "components" : [ {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "WmsAqFI5dUO",
+                  "path" : "KSg3L-kzE_1",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }, {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n                      sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n                      ",
+                  "id" : "3AhY_pqvBdr",
+                  "path" : "J8WpZTSox8t",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                } ],
+                "id" : "5yq2BJZJEo5",
+                "path" : "KeNrGLC-N72",
+                "sizes" : {
+                  "lg" : 7,
+                  "md" : 7,
+                  "sm" : 7,
+                  "xs" : 7
+                },
+                "target" : "block"
+              }, {
+                "color" : "primary",
+                "components" : "Lorem",
+                "id" : "6i9v46MZDei",
+                "path" : "UVjILAFsUmM",
+                "sizes" : {
+                  "lg" : 12,
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12
+                },
+                "target" : "button",
+                "variant" : "outlined"
+              } ],
+              "id" : "8HRSfXbNpWx",
+              "justify" : "space-around",
+              "path" : "4p0vt7XfYhK",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "spacing" : 2,
+              "target" : "section"
+            } ],
+            "id" : "sugiP0LGQxX",
+            "path" : "X2ruA62r0OZ",
+            "sizes" : {
+              "lg" : 6,
+              "md" : 6,
+              "sm" : 10,
+              "xs" : 10
+            },
+            "style" : {
+              "margin" : "2.5% auto"
+            },
+            "target" : "article"
+          } ],
+          "id" : "cddc",
+          "justify" : "center",
+          "path" : "/cddc",
+          "spacing" : 2,
+          "style" : {
+            "margin" : "5% auto"
+          },
+          "target" : "section"
+        } ],
+        "styleguide" : {
+          "alignContent" : "center",
+          "alignItems" : "center",
+          "components" : {
+            "zAE34rfR-block" : {
+              "components" : {
+                "zAE34rfR-text1" : {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n              sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n              aliquipea commodo consequat.",
+                  "id" : "zAE34rfR-text1",
+                  "path" : "styleguide/zAE34rfR-block/zAE34rfR-text-1",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                },
+                "zAE34rfR-text2" : {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n              sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n              aliquipea commodo consequat.",
+                  "id" : "zAE34rfR-text-2",
+                  "path" : "styleguide/zAE34rfR-block/zAE34rfR-text-2",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                },
+                "zAE34rfR-title" : {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "zAE34rfR-title",
+                  "path" : "styleguide/zAE34rfR-block/zAE34rfR-title",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }
+              },
+              "id" : "zAE34rfR-block",
+              "path" : "styleguide/zAE34rfR-block",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "target" : "block"
+            }
+          },
+          "id" : "zAE34rfR",
+          "justify" : "center",
+          "path" : "styleguide",
+          "sizes" : {
+            "lg" : 10,
+            "md" : 10,
+            "sm" : 10,
+            "xs" : 10
+          },
+          "spacing" : 8,
+          "style" : {
+            "marginTop" : "10%"
+          },
+          "target" : "section"
+        }
+      },
+      "fr" : {
+        "home" : [ {
+          "alignContent" : "center",
+          "alignItems" : "center",
+          "components" : [ {
+            "actionProps" : {
+              "target" : "div"
+            },
+            "alt" : "halte la",
+            "data" : "https://placekitten.com/1000/400",
+            "height" : "400px",
+            "id" : "scnkscks",
+            "path" : "/abddbcv/scnkscks",
+            "sizes" : {
+              "lg" : 12,
+              "md" : 12,
+              "sm" : 12,
+              "xs" : 12
+            },
+            "target" : "imageTile",
+            "width" : "100%"
+          } ],
+          "id" : "abddbcv",
+          "justify" : "center",
+          "path" : "/abddbcv",
+          "spacing" : 0,
+          "target" : "section"
+        }, {
+          "alignContent" : "center",
+          "alignItems" : "center",
+          "components" : [ {
+            "components" : [ {
+              "components" : [ {
+                "actionProps" : {
+                  "target" : "div"
+                },
+                "alt" : "halte la",
+                "data" : "https://placekitten.com/300/300",
+                "height" : "100%",
+                "id" : "ecszcv",
+                "path" : "/cddc/vdcdscs/scscscc/ecszcv",
+                "sizes" : {
+                  "lg" : 4,
+                  "md" : 4,
+                  "sm" : 4,
+                  "xs" : 4
+                },
+                "target" : "imageTile",
+                "width" : "100%"
+              }, {
+                "components" : [ {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "vdvdvht",
+                  "path" : "/cddc/vdcdscs/scscscc/btntrd/vdvdvht",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }, {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n                      sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n                      ",
+                  "id" : "btnbtbn",
+                  "path" : "/cddc/vdcdscs/scscscc/btntrd/btnbtbn",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                } ],
+                "id" : "btntrd",
+                "path" : "/cddc/vdcdscs/scscscc/btntrd",
+                "sizes" : {
+                  "lg" : 7,
+                  "md" : 7,
+                  "sm" : 7,
+                  "xs" : 7
+                },
+                "target" : "block"
+              }, {
+                "color" : "primary",
+                "components" : "Lorem",
+                "id" : "zzzxz",
+                "path" : "/cddc/vdcdscs/scscscc/zzzxz",
+                "sizes" : {
+                  "lg" : 12,
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12
+                },
+                "target" : "button",
+                "variant" : "outlined"
+              } ],
+              "id" : "scscscc",
+              "justify" : "center",
+              "path" : "/cddc/vdcdscs/scscscc",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "spacing" : 2,
+              "target" : "section"
+            } ],
+            "id" : "vdcdscs",
+            "path" : "/cddc/vdcdscs",
+            "sizes" : {
+              "lg" : 4,
+              "md" : 4,
+              "sm" : 12,
+              "xs" : 12
+            },
+            "style" : {
+              "margin" : "2.5% auto"
+            },
+            "target" : "article"
+          }, {
+            "components" : [ {
+              "components" : [ {
+                "actionProps" : {
+                  "target" : "div"
+                },
+                "alt" : "halte la",
+                "data" : "https://placekitten.com/300/300",
+                "height" : "100%",
+                "id" : "msmczmfz",
+                "path" : "/cddc/zgzgrzg/lqoalc/msmczmfz",
+                "sizes" : {
+                  "lg" : 4,
+                  "md" : 4,
+                  "sm" : 4,
+                  "xs" : 4
+                },
+                "target" : "imageTile",
+                "width" : "100%"
+              }, {
+                "components" : [ {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "smcsmvmedbm",
+                  "path" : "/cddc/zgzgrzg/lqoalc/zafgzb/smcsmvmedbm",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }, {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n                      sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n                      ",
+                  "id" : "zeazrgz",
+                  "path" : "/cddc/zgzgrzg/lqoalc/zafgzb/zeazrgz",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                } ],
+                "id" : "zafgzb",
+                "path" : "/cddc/zgzgrzg/lqoalc/zafgzb",
+                "sizes" : {
+                  "lg" : 7,
+                  "md" : 7,
+                  "sm" : 7,
+                  "xs" : 7
+                },
+                "target" : "block"
+              }, {
+                "color" : "primary",
+                "components" : "Lorem",
+                "id" : "afmmfo",
+                "path" : "/cddc/zgzgrzg/lqoalc/afmmfo",
+                "sizes" : {
+                  "lg" : 12,
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12
+                },
+                "target" : "button",
+                "variant" : "outlined"
+              } ],
+              "id" : "lqoalc",
+              "justify" : "space-around",
+              "path" : "/cddc/zgzgrzg/lqoalc",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "spacing" : 2,
+              "target" : "section"
+            } ],
+            "id" : "zgzgrzg",
+            "path" : "/cddc/zgzgrzg",
+            "sizes" : {
+              "lg" : 4,
+              "md" : 4,
+              "sm" : 12,
+              "xs" : 12
+            },
+            "style" : {
+              "margin" : "2.5% auto"
+            },
+            "target" : "article"
+          }, {
+            "components" : [ {
+              "components" : [ {
+                "components" : [ {
+                  "components" : [ {
+                    "components" : "Lorem",
+                    "target" : "td"
+                  }, {
+                    "components" : "Ipsum",
+                    "target" : "td"
+                  }, {
+                    "components" : "Dolor",
+                    "target" : "td"
+                  } ],
+                  "id" : "4GWdYelx7a",
+                  "path" : "UG6_LGkrRq",
+                  "target" : "tr"
+                } ],
+                "id" : "mJnjrd6_nW",
+                "path" : "u2mElEG5QQ",
+                "target" : "thead"
+              }, {
+                "components" : [ {
+                  "components" : [ {
+                    "components" : "funny",
+                    "id" : "CSTZNTKuTA",
+                    "path" : "2pd1335xhY",
+                    "target" : "td"
+                  }, {
+                    "components" : "funny",
+                    "id" : "R8JSM1qTVJ",
+                    "path" : "pOTCK77suG",
+                    "target" : "td"
+                  }, {
+                    "components" : "funny",
+                    "id" : "vR2XeL94IF4",
+                    "path" : "cbfihmDGZr5",
+                    "target" : "td"
+                  } ],
+                  "id" : "-CO7oEOHpU",
+                  "path" : "mP84n16ITz",
+                  "target" : "tr"
+                }, {
+                  "components" : [ {
+                    "components" : "Ok",
+                    "id" : "UuZV5bH_00K",
+                    "path" : "F8lVaBhSeoI",
+                    "target" : "td"
+                  }, {
+                    "components" : "Ok",
+                    "id" : "YjvuwPFN89J",
+                    "path" : "XcQPT6ilwJ-",
+                    "target" : "td"
+                  }, {
+                    "components" : "Ok",
+                    "id" : "RvW5tEUGw4p",
+                    "path" : "AFJcJ_tDv4Q",
+                    "target" : "td"
+                  } ],
+                  "id" : "lJJGWGjEXNg",
+                  "path" : "IERnZBCBkPT",
+                  "target" : "tr"
+                }, {
+                  "components" : [ {
+                    "components" : "Soso",
+                    "id" : "VKVVPSmnYlz",
+                    "path" : "aN6AUi3Wxz2",
+                    "target" : "td"
+                  }, {
+                    "components" : "Soso",
+                    "id" : "wvRZt3zOldf",
+                    "path" : "FBRORKOGFIz",
+                    "target" : "td"
+                  }, {
+                    "components" : "Soso",
+                    "id" : "0h857NCgyNc",
+                    "path" : "qbRhdoL0RDp",
+                    "target" : "td"
+                  } ],
+                  "id" : "PEbsCw0G8qf",
+                  "path" : "MNP4XUfgeW_",
+                  "target" : "tr"
+                }, {
+                  "components" : [ {
+                    "components" : "Nice",
+                    "id" : "V9ZLdKAVZfW",
+                    "path" : "MXknWYt80Z3",
+                    "target" : "td"
+                  }, {
+                    "components" : "Nice",
+                    "id" : "tdG_6zPZUGQ",
+                    "path" : "IE8KP-h64a2",
+                    "target" : "td"
+                  }, {
+                    "components" : "Nice",
+                    "id" : "ke349ZY3TsF",
+                    "path" : "P-a8elYq9J6",
+                    "target" : "td"
+                  } ],
+                  "id" : "e5mwKF6Zrz3",
+                  "path" : "cDGWaLelkDy",
+                  "target" : "tr"
+                } ],
+                "id" : "SGThtc6x4U",
+                "path" : "gU9rGX4u5o",
+                "target" : "tbody"
+              } ],
+              "id" : "HvHQBHRNZu",
+              "path" : "wtC5ebQqmc",
+              "target" : "table"
+            } ],
+            "id" : "zoloOJM0Y",
+            "path" : "7T7CA8iulY",
+            "sizes" : {
+              "lg" : 3,
+              "md" : 3,
+              "sm" : 12,
+              "xs" : 12
+            },
+            "target" : "block"
+          }, {
+            "components" : [ {
+              "components" : [ {
+                "components" : [ {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "ag94fuK85xI",
+                  "path" : "Ohvqig8tndc",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }, {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n                      sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n                      ",
+                  "id" : "_l0rPcYUv9s",
+                  "path" : "GbVwPhydFSo",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                } ],
+                "id" : "VTMo3XIA04_",
+                "path" : "6ZQClNjWKWf",
+                "sizes" : {
+                  "lg" : 10,
+                  "md" : 10,
+                  "sm" : 10,
+                  "xs" : 10
+                },
+                "target" : "block"
+              } ],
+              "id" : "PzIcosAuJD-",
+              "justify" : "space-around",
+              "path" : "b1SIjvd2V-w",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "spacing" : 2,
+              "target" : "section"
+            } ],
+            "id" : "UaeunM4dkgl",
+            "path" : "G3rzcYtzVIP",
+            "sizes" : {
+              "lg" : 10,
+              "md" : 10,
+              "sm" : 10,
+              "xs" : 10
+            },
+            "style" : {
+              "margin" : "2.5% auto"
+            },
+            "target" : "article"
+          }, {
+            "components" : [ {
+              "components" : [ {
+                "actionProps" : {
+                  "target" : "div"
+                },
+                "alt" : "halte la",
+                "data" : "https://placekitten.com/300/300",
+                "height" : "100%",
+                "id" : "rSAKuY7V_NS",
+                "path" : "c_1OqhrvvKK",
+                "sizes" : {
+                  "lg" : 4,
+                  "md" : 4,
+                  "sm" : 4,
+                  "xs" : 4
+                },
+                "target" : "imageTile",
+                "width" : "100%"
+              }, {
+                "components" : [ {
+                  "align" : "right",
+                  "color" : "primary",
+                  "components" : "Lorem Ipsum",
+                  "gutterBottom" : true,
+                  "id" : "WmsAqFI5dUO",
+                  "path" : "KSg3L-kzE_1",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "title"
+                }, {
+                  "align" : "justify",
+                  "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n                      sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n                      ",
+                  "id" : "3AhY_pqvBdr",
+                  "path" : "J8WpZTSox8t",
+                  "sizes" : {
+                    "lg" : 12,
+                    "md" : 12,
+                    "sm" : 12,
+                    "xs" : 12
+                  },
+                  "target" : "text"
+                } ],
+                "id" : "5yq2BJZJEo5",
+                "path" : "KeNrGLC-N72",
+                "sizes" : {
+                  "lg" : 7,
+                  "md" : 7,
+                  "sm" : 7,
+                  "xs" : 7
+                },
+                "target" : "block"
+              }, {
+                "color" : "primary",
+                "components" : "Lorem",
+                "id" : "6i9v46MZDei",
+                "path" : "UVjILAFsUmM",
+                "sizes" : {
+                  "lg" : 12,
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12
+                },
+                "target" : "button",
+                "variant" : "outlined"
+              } ],
+              "id" : "8HRSfXbNpWx",
+              "justify" : "space-around",
+              "path" : "4p0vt7XfYhK",
+              "sizes" : {
+                "lg" : 12,
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12
+              },
+              "spacing" : 2,
+              "target" : "section"
+            } ],
+            "id" : "sugiP0LGQxX",
+            "path" : "X2ruA62r0OZ",
+            "sizes" : {
+              "lg" : 6,
+              "md" : 6,
+              "sm" : 12,
+              "xs" : 12
+            },
+            "style" : {
+              "margin" : "2.5% auto"
+            },
+            "target" : "article"
+          } ],
+          "id" : "cddc",
+          "justify" : "center",
+          "path" : "/cddc",
+          "spacing" : 2,
+          "style" : {
+            "margin" : "5% auto",
+            "maxWidth" : "100%"
+          },
+          "target" : "section"
+        } ],
+        "styleguide" : {
+          "styleguide" : {
+            "alignContent" : "center",
+            "alignItems" : "center",
+            "components" : {
+              "zAEKJU34rfR-section" : {
+                "components" : {
+                  "zAE34rfR-block" : {
+                    "components" : {
+                      "zAE34rfR-text1" : {
+                        "align" : "justify",
+                        "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n              sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n              aliquipea commodo consequat.",
+                        "id" : "zAE34rfR-text1",
+                        "path" : "styleguide/zAEKJU34rfR-section/zAE34rfR-block/zAE34rfR-text-1",
+                        "sizes" : {
+                          "lg" : 12,
+                          "md" : 12,
+                          "sm" : 12,
+                          "xs" : 12
+                        },
+                        "target" : "text"
+                      },
+                      "zAE34rfR-text2" : {
+                        "align" : "justify",
+                        "components" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit,\n              sed do eiusmod tempor incididunt ut labore etdolore magna aliqua.\n              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut\n              aliquipea commodo consequat.",
+                        "id" : "zAE34rfR-text-2",
+                        "path" : "styleguide/zAEKJU34rfR-section/zAE34rfR-block/zAE34rfR-text-2",
+                        "sizes" : {
+                          "lg" : 12,
+                          "md" : 12,
+                          "sm" : 12,
+                          "xs" : 12
+                        },
+                        "target" : "text"
+                      },
+                      "zAE34rfR-title" : {
+                        "align" : "right",
+                        "color" : "primary",
+                        "components" : "Lorem Ipsum",
+                        "gutterBottom" : true,
+                        "id" : "zAE34rfR-title",
+                        "path" : "styleguide/zAEKJU34rfR-section/zAE34rfR-block/zAE34rfR-title",
+                        "sizes" : {
+                          "lg" : 12,
+                          "md" : 12,
+                          "sm" : 12,
+                          "xs" : 12
+                        },
+                        "target" : "title"
+                      }
+                    },
+                    "id" : "zAE34rfR-block",
+                    "path" : "styleguide/zAEKJU34rfR-section/zAE34rfR-block",
+                    "sizes" : {
+                      "lg" : 8,
+                      "md" : 8,
+                      "sm" : 12,
+                      "xs" : 12
+                    },
+                    "target" : "block"
+                  },
+                  "zAE3JHYT6-block" : {
+                    "components" : {
+                      "hg5FG567-imageTile" : {
+                        "actionProps" : {
+                          "target" : "div"
+                        },
+                        "alt" : "image man",
+                        "data" : "https://placekitten.com/300/300",
+                        "height" : "100%",
+                        "id" : "hg5FG567-imageTile",
+                        "path" : "styleguide/zAEKJU34rfR-section/zAE3JHYT6-block/hg5FG567-imageTile",
+                        "sizes" : {
+                          "lg" : 12,
+                          "md" : 12,
+                          "sm" : 12,
+                          "xs" : 12
+                        },
+                        "target" : "imageTile",
+                        "width" : "100%"
+                      }
+                    },
+                    "id" : "zAE3JHYT6-block",
+                    "path" : "styleguide/zAEKJU34rfR-section/zAE3JHYT6-block",
+                    "sizes" : {
+                      "lg" : 4,
+                      "md" : 4,
+                      "sm" : 12,
+                      "xs" : 12
+                    },
+                    "target" : "block"
+                  }
+                },
+                "id" : "zAEKJU34rfR-section",
+                "path" : "styleguide/zAEKJU34rfR-section",
+                "sizes" : {
+                  "lg" : 12,
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12
+                },
+                "target" : "section"
+              }
+            },
+            "id" : "zAE34rfR",
+            "justify" : "center",
+            "path" : "styleguide",
+            "sizes" : {
+              "lg" : 10,
+              "md" : 10,
+              "sm" : 10,
+              "xs" : 10
+            },
+            "spacing" : 8,
+            "style" : {
+              "marginTop" : "10%"
+            },
+            "target" : "section"
+          }
+        }
+      }
+    }
+  }
+}

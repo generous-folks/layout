@@ -58,10 +58,54 @@ REACT_APP_MESSAGE_KEY="some hash"
 The idea behind this project is to allow non-developers to develop their own UI and deploy it for free (like wix.com).
 Alternatively, developers will still be able to develop new pages and features (e.g. in the back office) while using the template engine for simple UI needs (unlike wix.com).
 
-# Road map
+## Road map
+
+### Core
 
 - [x] Render pages from JSON
 - [ ] Contribute pages from Back Office
+
+### UI/UX
+
+#### Templates fixtures
+
+##### Pages
+
+- [x] Home
+
+##### Molecules
+
+- Cards
+
+  - [x] Card Image Top
+  - [ ] Card Image Left
+  - [ ] Card Image Right
+  - [ ]
+
+- Jumbotron
+- Hero
+- Posters
+
+#### Components
+
+- [x] Section
+- [x] Block
+- [x] Article
+- [x] Table
+- [x] TBody
+- [x] THead
+- [x] TR
+- [x] TD
+- [x] Image
+- [x] Button
+- [x] Title
+- [x] SubTitle
+- [x] Text
+- [x] Divider
+- [x] Player
+
+### SI
+
 - [ ] Integrate CI/CD
 - [ ] Port to Docker
 - [ ] Some thing to achieve

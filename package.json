@@ -42,6 +42,7 @@
     "prettier-eslint": "^8.8.2"
   },
   "scripts": {
+    "seed": "chmod +x './scripts/seed.sh' && ./scripts/seed.sh",
     "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",

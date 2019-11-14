@@ -22,7 +22,13 @@ The process to get the project up and running is quite tedious, as it requires t
 - `git clone https://github.com/generous-folks/layout.git`
 - `cd layout && yarn`
 - `firebase login`
-- `firebase init` - Pick `Database` and `Hosting` using the _space_ key and press _enter_ - Choose `use an existing project` an pick the project you just created - What file should be used for Database Rules? Leave blank and press _enter_ - What do you want to use as your public directory? `build` - Configure as a single-page app (rewrite all urls to /index.html)? `yes`
+- `firebase init`
+
+  - Pick `Database` and `Hosting` using the _space_ key and press _enter_
+  - Choose `use an existing project` an pick the project you just created
+  - What file should be used for Database Rules? Leave blank and press _enter_
+  - What do you want to use as your public directory? `build`
+  - Configure as a single-page app (rewrite all urls to /index.html)? `yes`
 
 - Create a `.env`file as below:
 
@@ -52,7 +58,7 @@ REACT_APP_MESSAGE_KEY="some hash"
 The idea behind this project is to allow non-developers to develop their own UI and deploy it for free (like wix.com).
 Alternatively, developers will still be able to develop new pages and features (e.g. in the back office) while using the template engine for simple UI needs (unlike wix.com).
 
-# Roadmap
+# Road map
 
 - [ x ] Render pages from JSON
 - [ ] Contribute pages from Back Office

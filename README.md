@@ -60,7 +60,7 @@ Alternatively, developers will still be able to develop new pages and features (
 
 # Road map
 
-- [ x ] Render pages from JSON
+- [x] Render pages from JSON
 - [ ] Contribute pages from Back Office
 - [ ] Integrate CI/CD
 - [ ] Port to Docker

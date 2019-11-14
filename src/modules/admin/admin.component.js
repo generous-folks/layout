@@ -117,7 +117,6 @@ AdminRoutes.propTypes = {
   config: PropTypes.shape({ pages: PropTypes.shape({}) }),
   initialized: PropTypes.bool.isRequired,
   initializeAdmin: PropTypes.func.isRequired,
-  deleteBookings: PropTypes.func.isRequired,
 };
 
 export default AdminRoutes;

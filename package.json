@@ -2,6 +2,9 @@
   "name": "layout-system",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "handlebars": "~4.5.2"
+  },
   "dependencies": {
     "@firebase/app": "^0.4.7",
     "@firebase/auth": "^0.11.3",
